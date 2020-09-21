@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw_adaptive</title>
+    <style>
+        body{
+            background-color: #f1eaea;
+        }
+        .container {
+            width: 70%;
+            display: flex;
+            margin: 25px auto;
+        }
+        .container:nth-child(2n) {
+            flex-direction: row-reverse;
+        }
+        .contact {
+            display: flex;
+            width: 20%;
+        }
+        .container:nth-child(2n) .contact {
+            flex-direction: row-reverse;
+        }
+        .contact span:first-child {
+            font-weight: bold;
+        }
+        .contact span:last-child{
+            color: gray;
+            font-size: 0.9em;
+        }
+        .info {
+            display: flex;
+            flex-direction: column;
+            width: 100px;
+            justify-content: center;
+            text-align: right;
+        }
+        .container:nth-child(2n) .info {
+            text-align: left;
+        }
+        .avatar {
+            display: flex;
+            align-items: center;
+        }
+        .avatar img {
+            width: 64px;
+            height: 64px;
+        }
+        .text {
+            padding: 2%;
+            width: 56%;
+        }
+        .container:nth-child(2n - 1) .text {
+            background-color: #FFB6C1;
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+        }
+        .container:nth-child(2n) .text {
+            background-color: #ADD8E6;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+        }
+        .container:nth-child(2n) .info {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="contact">
+        <div class="info">
+            <span>Anie Smith</span>
+            <span>4 hours ago</span>
+        </div>
+        <div class="avatar">
+            <img src="images/avatar_2.png" alt="" />
+        </div>
+    </div>
+    <div class="text">
+        <span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquam eius fugit id illo ipsa ipsam nam nobis nostrum
+            obcaecati officiis optio praesentium quae quam, quo
+            repellat similique veritatis. Laudantium, quibusdam.
+        </span>
+    </div>
+</div>
+<div class="container">
+    <div class="contact">
+        <div class="info">
+            <span>Jack Silverston</span>
+            <span>4 hours ago</span>
+        </div>
+        <div class="avatar">
+            <img src="images/avatar_1.png" alt="" />
+        </div>
+    </div>
+    <div class="text">
+        <span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquam eius fugit id illo ipsa ipsam nam nobis nostrum
+            obcaecati officiis optio praesentium quae quam, quo
+            repellat similique veritatis. Laudantium, quibusdam.
+        </span>
+    </div>
+</div>
+<div class="container">
+    <div class="contact">
+        <div class="info">
+            <span>Anie Smith</span>
+            <span>4 hours ago</span>
+        </div>
+        <div class="avatar">
+            <img src="images/avatar_2.png" alt="" />
+        </div>
+    </div>
+    <div class="text">
+        <span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquam eius fugit id illo ipsa ipsam nam nobis nostrum
+            obcaecati officiis optio praesentium quae quam, quo
+            repellat similique veritatis. Laudantium, quibusdam.
+        </span>
+    </div>
+</div>
+<div class="container">
+    <div class="contact">
+        <div class="info">
+            <span>Jack Silverston</span>
+            <span>4 hours ago</span>
+        </div>
+        <div class="avatar">
+            <img src="images/avatar_1.png" alt="" />
+        </div>
+    </div>
+    <div class="text">
+        <span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquam eius fugit id illo ipsa ipsam nam nobis nostrum
+            obcaecati officiis optio praesentium quae quam, quo
+            repellat similique veritatis. Laudantium, quibusdam.
+        </span>
+    </div>
+</div>
+<div class="container">
+    <div class="contact">
+        <div class="info">
+            <span>Anie Smith</span>
+            <span>4 hours ago</span>
+        </div>
+        <div class="avatar">
+            <img src="images/avatar_2.png" alt="" />
+        </div>
+    </div>
+    <div class="text">
+        <span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquam eius fugit id illo ipsa ipsam nam nobis nostrum
+            obcaecati officiis optio praesentium quae quam, quo
+            repellat similique veritatis. Laudantium, quibusdam.
+        </span>
+    </div>
+</div>
+<div class="container">
+    <div class="contact">
+        <div class="info">
+            <span>Jack Silverston</span>
+            <span>4 hours ago</span>
+        </div>
+        <div class="avatar">
+            <img src="images/avatar_1.png" alt="" />
+        </div>
+    </div>
+    <div class="text">
+        <span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquam eius fugit id illo ipsa ipsam nam nobis nostrum
+            obcaecati officiis optio praesentium quae quam, quo
+            repellat similique veritatis. Laudantium, quibusdam.
+        </span>
+    </div>
+</div>
+</body>
+</html>
